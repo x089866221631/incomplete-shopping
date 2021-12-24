@@ -1,0 +1,93 @@
+.sk{
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left:1px solid #c81523 ;
+}
+.sk-list{
+    float: left;
+}
+.sk-list ul li{
+    float: left;
+}
+.sk-list ul li a{
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.sk-con{
+    float:right;
+}
+.sk-con ul li{
+    float: left;
+}
+.sk-con ul li a{
+    display: block;
+   line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+   
+}
+.sk-con ul li:last-child a::after{
+    content:"\e900";
+}
+.sk-container .sk-hd img{
+    width: 1200px;
+}
+.sk-container .sk-bd {
+    margin-top: 10px;
+}
+.sk-container .sk-bd ul li{
+    float: left;
+    margin-right: 13px;
+    border: 1px solid transparent;
+    width: 289px;
+    height: 460px;
+}
+.sk-container .sk-bd ul li:nth-child(4n){
+    margin-right: 0;
+}
+.sk-container .sk-bd ul li img{
+    width: 100%;
+}
+.sk-container .sk-bd ul li em p{
+    font-size: 16px; 
+     text-align: center;
+}
+.sk-container .sk-bd ul li em:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.sk-container .sk-bd ul li .price-0{
+    font-size: 25px;
+    color: #d44;
+    font-weight: 600;
+    padding-left: 6px;
+}
+.sk-container .sk-bd ul li p {
+    font-size: 16px;
+    padding-left: 6px;
+}
+.sk-container .sk-bd ul li p meter{
+    border-radius: 6px;
+    overflow: hidden;
+    width: 125px;
+}
+
+.sk-container .sk-bd ul li button{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 5px;
+    background-color: #b2191b;
+}
+.sk-container .sk-bd ul li:hover{
+    border-color:  #c81523;
+
+}

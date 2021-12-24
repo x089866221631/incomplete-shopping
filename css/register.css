@@ -1,0 +1,137 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    position: relative;
+    height: 84px;
+    border-bottom:2px solid #c81523 ;
+}
+header a{
+    position: absolute;
+    top: 18px;
+    display: block;
+    height: 61px;
+    width: 171px;
+    font-size: 0;
+    background:no-repeat url("../img/icons.png") -374px -10px;
+}
+.registerarea{
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.main-hd{
+    background-color: #ececec;
+    border-bottom: 1px solid #ccc;
+    height: 42px;
+    line-height: 42px;
+}
+.main-hd h3{
+    float: left;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.main-hd .sign{ 
+    padding: 0 10px;
+    font-size: 16px;
+    float: right;
+}
+.main-hd  a{
+    color: #c8165d;
+}
+.main-bd {
+    width: 600px;
+    margin:50px auto 0;
+}
+.main-bd ul{
+    padding-left: 60px;
+}
+.main-bd ul li{
+    margin-bottom: 20px;
+}
+.main-bd ul li label{
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    margin-right: 15px;
+}
+.main-bd ul li .inp{
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+    
+}
+.error{
+    color: #c81523;
+}
+.error-icon{
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+}
+.icon-error{
+    position: absolute;
+    top: 5px;
+}
+
+.success{
+    color: green;
+}
+.safe{
+    padding-left:170px ;
+}
+.safe em{
+    padding: 0 12px;
+    color: #fff;
+}
+.ruo{
+    background-color: #c81523;
+}
+.zhong{
+    background-color: #ff9300;
+}
+.qiang{
+    background-color: green;
+}
+.agree {
+    padding-left: 95px;
+}
+.agree a{
+    color: #1ba1e6;
+}
+.agree input{
+    vertical-align:text-top;
+}
+.btn{
+    width: 200px;
+    height: 34px;
+    background-color: #c81523;
+    color: white;
+    margin: 30px 0 0 125px;
+    cursor: pointer;
+}
+.mod_copyright{
+    padding-top: 20px;
+    text-align: center;
+}
+.mod_copyright a{
+    display:inline-block;
+    margin:auto;
+}
+.mod_copyright span{
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background-color: #999999;
+    margin:0 15px;
+}
+.mod_copyright .links{
+    margin:20px 0 15px 0
+}
+.mod_copyright .copyright{
+    line-height: 20px;
+}
